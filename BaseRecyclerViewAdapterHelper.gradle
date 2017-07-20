@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/BaseRecyclerViewAdapterHelper.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.25'
+}

@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/OkHttp.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'com.squareup.okhttp3:okhttp:3.8.1'
+}

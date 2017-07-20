@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/RxBinding.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'com.jakewharton.rxbinding2:rxbinding-leanback-v17:2.0.0'
+}

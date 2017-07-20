@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/RxJava.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'io.reactivex:rxjava:1.3.0'
+}

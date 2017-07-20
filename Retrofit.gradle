@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/Retrofit.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'com.squareup.retrofit2:retrofit:2.3.0'
+}

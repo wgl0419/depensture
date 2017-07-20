@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/EventBus.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'org.greenrobot:eventbus:3.0.0'
+}

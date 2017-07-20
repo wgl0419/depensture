@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/RxPermission.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+}

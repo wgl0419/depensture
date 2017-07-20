@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/Circleindicator.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'me.relex:circleindicator:1.2.2@aar'
+}

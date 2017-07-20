@@ -1,0 +1,11 @@
+android {
+  buildTypes {
+    release {
+      proguardFiles '../dependence/proguard/Stetho.pro'
+    }
+  }
+}
+
+dependencies {
+  compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+}

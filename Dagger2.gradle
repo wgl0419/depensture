@@ -7,6 +7,6 @@ android {
 }
 
 dependencies {
-  compile 'com.google.dagger:dagger:2.11'
-  annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
+  compile 'com.google.dagger:dagger:2.8'
+  annotationProcessor 'com.google.dagger:dagger-compiler:2.8'
 }

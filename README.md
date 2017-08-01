@@ -1,4 +1,4 @@
-# dependence
+# depensture
 
 ## What is new?
 在build.gradle中使用新的方式组织依赖库

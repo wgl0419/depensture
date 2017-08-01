@@ -20,7 +20,7 @@ apply from: "$root/Eventbus.gradle"
 
 ```
 apply plugin: 'com.android.application'/'com.android.library'
-def root = "$rootDir/dependence"
+def root = "$rootDir/depensture/dependencies"
 apply from: "$root/ButterKnife.gradle"
 apply from: "$root/Dagger2.gradle"
 apply from: "$root/Eventbus.gradle"

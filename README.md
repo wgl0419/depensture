@@ -6,7 +6,7 @@
 1. 简洁
 没有长串的 groupId,artifactId,versionId
 ```
-apply from: "$root/Eventbus.gradle"
+apply from: "$dependenciesDir/Eventbus.gradle"
 ```
 
 2. 集成混淆
@@ -16,15 +16,23 @@ apply from: "$root/Eventbus.gradle"
 使用`apply from` 引入常用库的同时，也可以在 `dependencies{}`中使用常规的 `compile`语法引入其它库。
 
 ## How to use?
-将项目copy到**rootProject**目录下
+1. 将项目copy到**rootProject**目录下
+
+2. 在 **rootProject** 的 **build.gradle** 文件中加入：
+```
+ext{
+  dependenciesDir = "$rootDir/depensture/dependencies"
+}
 
 ```
-apply plugin: 'com.android.application'/'com.android.library'
-def root = "$rootDir/depensture/dependencies"
-apply from: "$root/ButterKnife.gradle"
-apply from: "$root/Dagger2.gradle"
-apply from: "$root/Eventbus.gradle"
-apply from: "$root/Glide.gradle"
+3. 在子 module 工程的**build.gradle**中使用定义好的路径引入依赖
+
+```
+apply plugin: 'com.android.application'   #or 'com.android.library'
+apply from: "$dependenciesDir/ButterKnife.gradle"
+apply from: "$dependenciesDir/Dagger2.gradle"
+apply from: "$dependenciesDir/Eventbus.gradle"
+apply from: "$dependenciesDir/Glide.gradle"
 
 android {
   

@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/OkHttp.pro'
-      consumerProguardFiles '../dependence/proguard/OkHttp.pro'
+      proguardFiles '../depensture/proguard/OkHttp.pro'
+      consumerProguardFiles '../depensture/proguard/OkHttp.pro'
     }
   }
 }

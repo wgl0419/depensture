@@ -2,8 +2,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/ButterKnife.pro'
-      consumerProguardFiles '../dependence/proguard/ButterKnife.pro'
+      proguardFiles '../depensture/proguard/ButterKnife.pro'
+      consumerProguardFiles '../depensture/proguard/ButterKnife.pro'
     }
   }
 }

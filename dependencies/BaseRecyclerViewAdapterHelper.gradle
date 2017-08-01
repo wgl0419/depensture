@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/BaseRecyclerViewAdapterHelper.pro'
-      consumerProguardFiles '../dependence/proguard/BaseRecyclerViewAdapterHelper.pro'
+      proguardFiles '../depensture/proguard/BaseRecyclerViewAdapterHelper.pro'
+      consumerProguardFiles '../depensture/proguard/BaseRecyclerViewAdapterHelper.pro'
     }
   }
 }

@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/RxBinding.pro'
-      consumerProguardFiles '../dependence/proguard/RxBinding.pro'
+      proguardFiles '../depensture/proguard/RxBinding.pro'
+      consumerProguardFiles '../depensture/proguard/RxBinding.pro'
     }
   }
 }

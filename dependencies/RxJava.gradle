@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/RxJava.pro'
-      consumerProguardFiles '../dependence/proguard/RxJava.pro'
+      proguardFiles '../depensture/proguard/RxJava.pro'
+      consumerProguardFiles '../depensture/proguard/RxJava.pro'
     }
   }
 }

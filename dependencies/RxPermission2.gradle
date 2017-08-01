@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/RxPermission.pro'
-      consumerProguardFiles '../dependence/proguard/RxPermission.pro'
+      proguardFiles '../depensture/proguard/RxPermission.pro'
+      consumerProguardFiles '../depensture/proguard/RxPermission.pro'
     }
   }
 }

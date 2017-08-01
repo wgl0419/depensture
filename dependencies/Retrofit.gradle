@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/Retrofit.pro'
-      consumerProguardFiles '../dependence/proguard/Retrofit.pro'
+      proguardFiles '../depensture/proguard/Retrofit.pro'
+      consumerProguardFiles '../depensture/proguard/Retrofit.pro'
     }
   }
 }

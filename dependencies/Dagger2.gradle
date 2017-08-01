@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/Dagger2.pro'
-      consumerProguardFiles '../dependence/proguard/Dagger2.pro'
+      proguardFiles '../depensture/proguard/Dagger2.pro'
+      consumerProguardFiles '../depensture/proguard/Dagger2.pro'
     }
   }
 }

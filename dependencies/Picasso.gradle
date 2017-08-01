@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/Picasso.pro'
-      consumerProguardFiles '../dependence/proguard/Picasso.pro'
+      proguardFiles '../depensture/proguard/Picasso.pro'
+      consumerProguardFiles '../depensture/proguard/Picasso.pro'
     }
   }
 }

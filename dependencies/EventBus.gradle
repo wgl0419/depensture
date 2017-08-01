@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/EventBus.pro'
-      consumerProguardFiles '../dependence/proguard/EventBus.pro'
+      proguardFiles '../depensture/proguard/EventBus.pro'
+      consumerProguardFiles '../depensture/proguard/EventBus.pro'
     }
   }
 }

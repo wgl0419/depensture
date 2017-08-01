@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/Circleindicator.pro'
-      consumerProguardFiles '../dependence/proguard/Circleindicator.pro'
+      proguardFiles '../depensture/proguard/Circleindicator.pro'
+      consumerProguardFiles '../depensture/proguard/Circleindicator.pro'
     }
   }
 }

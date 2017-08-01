@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/Stetho.pro'
-      consumerProguardFiles '../dependence/proguard/Stetho.pro'
+      proguardFiles '../depensture/proguard/Stetho.pro'
+      consumerProguardFiles '../depensture/proguard/Stetho.pro'
     }
   }
 }

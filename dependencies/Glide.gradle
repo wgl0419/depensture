@@ -1,8 +1,8 @@
 android {
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/Glide.pro'
-      consumerProguardFiles '../dependence/proguard/Glide.pro'
+      proguardFiles '../depensture/proguard/Glide.pro'
+      consumerProguardFiles '../depensture/proguard/Glide.pro'
     }
   }
 }

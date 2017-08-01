@@ -9,8 +9,8 @@ android {
 
   buildTypes {
     release {
-      proguardFiles '../dependence/proguard/ARouter.pro'
-      consumerProguardFiles '../dependence/proguard/ARouter.pro'
+      proguardFiles '../depensture/proguard/ARouter.pro'
+      consumerProguardFiles '../depensture/proguard/ARouter.pro'
     }
   }
 }

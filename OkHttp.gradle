@@ -2,6 +2,7 @@ android {
   buildTypes {
     release {
       proguardFiles '../dependence/proguard/OkHttp.pro'
+      consumerProguardFiles '../dependence/proguard/OkHttp.pro'
     }
   }
 }

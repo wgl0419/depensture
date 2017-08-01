@@ -2,6 +2,7 @@ android {
   buildTypes {
     release {
       proguardFiles '../dependence/proguard/Picasso.pro'
+      consumerProguardFiles '../dependence/proguard/Picasso.pro'
     }
   }
 }

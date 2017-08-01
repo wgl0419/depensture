@@ -2,6 +2,7 @@ android {
   buildTypes {
     release {
       proguardFiles '../dependence/proguard/RxJava2.pro'
+      consumerProguardFiles '../dependence/proguard/RxJava2.pro'
     }
   }
 }

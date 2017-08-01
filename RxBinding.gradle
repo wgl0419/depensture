@@ -2,10 +2,11 @@ android {
   buildTypes {
     release {
       proguardFiles '../dependence/proguard/RxBinding.pro'
+      consumerProguardFiles '../dependence/proguard/RxBinding.pro'
     }
   }
 }
 
 dependencies {
-  compile 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+  compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
 }

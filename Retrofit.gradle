@@ -2,10 +2,13 @@ android {
   buildTypes {
     release {
       proguardFiles '../dependence/proguard/Retrofit.pro'
+      consumerProguardFiles '../dependence/proguard/Retrofit.pro'
     }
   }
 }
 
 dependencies {
   compile 'com.squareup.retrofit2:retrofit:2.3.0'
+  compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+  compile 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
 }

@@ -2,6 +2,7 @@ android {
   buildTypes {
     release {
       proguardFiles '../dependence/proguard/RxPermission.pro'
+      consumerProguardFiles '../dependence/proguard/RxPermission.pro'
     }
   }
 }

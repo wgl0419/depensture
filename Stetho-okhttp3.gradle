@@ -2,7 +2,10 @@ android {
   buildTypes {
     release {
       proguardFiles '../dependence/proguard/Stetho.pro'
+<<<<<<< HEAD
       consumerProguardFiles '../dependence/proguard/Stetho.pro'
+=======
+>>>>>>> 0bab5f98c9e0d8c7fd0079fd3c79dfbf79b0b3be
     }
   }
 }
